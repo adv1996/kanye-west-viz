@@ -9,7 +9,7 @@ headers = {'Content-Type': 'appplication/json',
     'Authorization': token}
 allData = []
 allData.append(
-  ['id', 'album', 'name', 'danceability', 'energy', 'key', 'loudness', 'speechiness', 'acounticness', 
+  ['id', 'album', 'name', 'danceability', 'energy', 'key', 'loudness', 'speechiness', 'acousticness', 
     'instrumentalness', 'liveness', 'valence', 'tempo', 'duration'
   ]
 )
