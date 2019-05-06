@@ -1,4 +1,4 @@
-id,album,name,danceability,energy,key,loudness,speechiness,acounticness,instrumentalness,liveness,valence,tempo,duration
+id,album,name,danceability,energy,key,loudness,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration
 4kUZvXB3LC3an3HX6h0s17,KIDS SEE GHOSTS,Cudi Montage,0.729,0.504,8,-6.784,0.0321,0.401,1.44e-06,0.121,0.305,110.011,197001
 2I3dW2dCBZAJGj5X21E53k,KIDS SEE GHOSTS,Kids See Ghosts,0.841,0.682,2,-7.007,0.0458,0.113,9.65e-05,0.131,0.338,94.985,245098
 4RVbK6cV0VqWdpCDcx3hiT,KIDS SEE GHOSTS,Reborn,0.585,0.597,0,-7.499,0.037,0.339,0.0404,0.195,0.227,100.051,324674
