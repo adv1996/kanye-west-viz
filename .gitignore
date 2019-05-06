@@ -1,0 +1,8 @@
+# pycompiled files
+__pycache__/
+*.py[cod]
+
+# mypy
+.mypy_cache/
+
+.vscode/
