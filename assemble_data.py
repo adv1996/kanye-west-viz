@@ -2,6 +2,7 @@ import requests
 import time
 import csv
 
+# features are from spotify api https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
 artist_id = '5K4W6rqBFWDnAN6FQUkS6x' # kanye west's artist's id
 # api token expires every couple of hours
 token = 'Bearer {insert token}'
