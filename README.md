@@ -1,5 +1,5 @@
 # kanye-west-viz
-
+Site Link: http://exotic-queen.surge.sh/
 ## Project setup
 ```
 yarn install
