@@ -163,6 +163,7 @@
         const g = svg.append('g')
           .attr("transform", "translate(" + this.margin.left + "," + this.margin.top + ")")
         // xScale danceability
+        
         this.xScale = d3.scaleLinear()
           .domain([0, 1])
           .range([0, this.width - this.margin.right - this.margin.left])
@@ -181,9 +182,10 @@
           .attr('cy', (d) => this.yScale(d.energy))
           .attr('fill', 'orange')
           .attr('r', 5)
-          .on('mouseover', (d) => {
-            console.log(d.name)
-          })
+          // .on('mouseover', (d) => {
+          //   console.log(d.name)
+          // })
+          // threejs d3 example http://bl.ocks.org/phil-pedruco/9852362
         
         let h = this.height - this.margin.top - this.margin.bottom
         g.append("g")
@@ -247,8 +249,6 @@
       }
     }
   }
-  // need to make sure songs are getitng updating, deleted, and added correctly
-  // be able to change the x axis and y axis labels
 </script>
 
 <style lang="scss" scoped>

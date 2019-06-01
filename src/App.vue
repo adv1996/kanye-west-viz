@@ -8,19 +8,23 @@
     </v-toolbar> -->
 
     <v-content>
-      <BarCodes/>
+      <Albums/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-// import ScatterPlot from './components/ScatterPlot'
-import BarCodes from './components/BarCodes'
+import ScatterPlot from './components/ScatterPlot';
+import Albums from './components/Albums';
+// import BarCodes from './components/BarCodes'
+import Graph from './components/Graph';
 
 export default {
   name: 'App',
   components: {
-    BarCodes
+    ScatterPlot,
+    Albums,
+    Graph,
   },
   data () {
     return {
